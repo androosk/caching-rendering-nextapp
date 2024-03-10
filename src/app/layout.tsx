@@ -25,7 +25,7 @@ export default function RootLayout({
         )}
       >
         <Navbar />
-        <div className="flex flex-col flex-grow">{children}</div>
+        <div className="flex flex-col flex-grow mt-24">{children}</div>
       </body>
     </html>
   );
