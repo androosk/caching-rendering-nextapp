@@ -24,7 +24,7 @@ const NotFound: React.FC = () => {
           </svg>
         </div>
         <p className="text-xl text-white mb-8">
-          Sorry, the page you're looking for doesn't exist.
+          Sorry, the page you&apos;re looking for doesn&apos;t exist.
         </p>
         <Link href="/">
           <p className="px-6 py-3 bg-white text-purple-500 font-semibold rounded-lg shadow-md hover:bg-purple-100 transition duration-300">
