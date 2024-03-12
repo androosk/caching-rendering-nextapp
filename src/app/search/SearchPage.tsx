@@ -4,6 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import Image from "next/image";
 import { PhotosWithTotalResults } from "pexels";
 
+// this could also be done with Next Server Actions, which also allow html forms to act as they are supposed to without javascript
 const SearchPage: React.FC = () => {
   const [searchResults, setSearchResults] =
     useState<PhotosWithTotalResults | null>(null);

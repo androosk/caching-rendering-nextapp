@@ -73,3 +73,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Pexels API - Free stock photos and videos AP
 - React-Icons - Free icons for your React app!
 - Coding in Flow YouTube page Next JS 14 tutorial - gave me the idea for this app and it's structure!
+
+## Link to Slide Show
+[Rendering and Caching in Next 14](https://docs.google.com/presentation/d/1ytu9zdi--ddmERNmOt5mcNFG0GYxccc02aROxYo-0Hs/edit?usp=sharing)

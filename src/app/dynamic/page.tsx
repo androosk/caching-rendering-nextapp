@@ -17,7 +17,7 @@ const PexelsPhoto: React.FC = async () => {
     // You can also use the Next cache setting to rerun the fetch on load every time
     // cache: "no-cache", "no-store" or "revalidate: (time value)", other settings in here are:
     // default
-    // force-cache
+    // force-cache <-- similar to default
     // only-if-cached
     // reload
   });
