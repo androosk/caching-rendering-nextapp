@@ -8,13 +8,12 @@ export const metadata = {
 // In the browser, the cache option of fetch indicates how a request will interact with the browser's HTTP cache, in Next.js, the cache option indicates how a server-side request will interact with the server's Data Cache.
 
 // you can revalidate your cache on each page load this way
-// export const revalidate = 0; // time based revalidation
+export const revalidate = 0; // time based revalidation
 
 const PexelsPhoto: React.FC = async () => {
   const photo: Photo | null = await fetchPhoto({
     // you can revalidate the cache in the fetch component as well if you want only the fetch to refresh on load
-    next: { revalidate: 0 }, // time based revalidation
-
+    // next: { revalidate: 0 } time based revalidation
     // You can also use the Next cache setting to rerun the fetch on load every time
     // cache: "no-cache", "no-store" or "revalidate: (time value)", other settings in here are:
     // default
